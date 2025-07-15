@@ -493,8 +493,11 @@ footer .credit a {
   padding: 2rem;
   border: 1px solid #666;
   width: 80%;
-  height: 50%;
   animation: animateModal 0.5s;
+  max-width: 800px; /* batas maksimal */
+  margin: auto;
+  box-sizing: border-box;
+  opacity: 0.9;
 }
 
 @keyframes animateModal {
@@ -652,10 +655,6 @@ footer .credit a {
 
   .contact .row form {
     padding-top: 2rem;
-  }
-
-  .modal-container {
-    height: 50%;
   }
 
   .modal-content {
